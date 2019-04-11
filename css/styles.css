@@ -96,3 +96,17 @@ nav {
     }
 
 }
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translatex(50px);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0px);
+
+    }
+}
